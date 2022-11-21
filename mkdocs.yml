@@ -1,0 +1,31 @@
+site_name: TP2+3
+
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - toc.integrate #El contenido a la izquierda
+    - content.code.annotate
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+
+  palette:
+    scheme: default
+    #primary: purple
+    #accent: cyan
+
+  markdown_extensions:
+  - pymdownx.highlight:
+      use_pygments: true
+      pygments_style: monokai
+      auto_title: true
+      linenums: true
+      linenums_style: pymdownx.inline
+      anchor_linenums: true
